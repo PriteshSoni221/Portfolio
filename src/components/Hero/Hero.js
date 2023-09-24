@@ -17,8 +17,7 @@ const Hero = (props) => (
           MERN Stack Developer
         </SectionTitle>
         <SectionText>
-          A highly motivated student with a hunger for skills and knowledge in
-          the domain of computer science, especially web development.
+          A computer science student with interest in web development, continuously seeking to enhance knowledge and skills in the field.
         </SectionText>
         {/* <Button>Learn More</Button> */}
       </LeftSection>
