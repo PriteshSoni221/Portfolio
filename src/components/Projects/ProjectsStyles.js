@@ -31,6 +31,8 @@ export const BlogCard = styled.div`
   }
 `;
 export const TitleContent = styled.div`
+  padding-top: 10px;
+  color: #9cc9e3;
   text-align: center;
   z-index: 20;
   width: 100%;
@@ -67,11 +69,26 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
+  font-size: 1.7rem;
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
+    font-size: 2rem;
+  }
+`;
+
+export const CardNote = styled.p`
+  width: 100%;
+  padding: 20px 50px 0px;
+  color: #b1b3b3;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 24px;
+  text-align: justify;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0.3rem;
+    font-size: 2rem;
   }
 `;
 

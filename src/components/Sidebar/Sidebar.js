@@ -32,9 +32,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             <LinkText>About</LinkText>
           </SidebarLink>
         </SidebarMenu>
-        <SideButtonWrap>
+        {/* <SideButtonWrap>
           <Button>Toggle Theme</Button>
-        </SideButtonWrap>
+        </SideButtonWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   );

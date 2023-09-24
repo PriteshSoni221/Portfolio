@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  CardNote,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -36,8 +37,9 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
+            {p.note && <CardNote>Note: {p.note}</CardNote>}
             <div>
-              <TitleContent style={{ color: "#fffff" }}>Stack</TitleContent>
+              <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
@@ -45,8 +47,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Visit</ExternalLinks>
-              <ExternalLinks href={p.source}>Source Code</ExternalLinks>
+              {p.visit && <ExternalLinks href={p.visit}>Visit</ExternalLinks>}
+              {p.source &&<ExternalLinks href={p.source}>Source Code</ExternalLinks>}
             </UtilityList>
           </BlogCard>
         );

@@ -80,9 +80,9 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
           </NavMenu>
-          <NavButton>
+          {/* <NavButton>
             <Button>Toggle Theme</Button>
-          </NavButton>
+          </NavButton> */}
         </NavbarContainer>
       </Nav>
     </>
