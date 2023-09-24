@@ -9,8 +9,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavButton,
-  Button,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
