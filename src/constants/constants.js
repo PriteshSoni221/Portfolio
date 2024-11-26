@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "ScandiDream",
     description:
-      "I have created my dream job site which is generous enough to provide job opportunities even to those who has no work experience.",
+      "A beautiful landing page of an IT consultant company",
     image: "/images/ScandiDream.png",
     tags: ["React", "styled-components", "React Scroll"],
     source: "https://github.com/PriteshSoni221/ScandiDream",
@@ -21,13 +21,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Pinterest Clone",
+    title: "Card Fraud Detection",
     description:
-      "A clone of popular website 'pinterest',  created using Next.js and Typescript. Data was stored on Firebase and Tailwind CSS was used for styling",
-    note: "The website is still in development stage.",
-    image: "/images/pinterestHome.png",
-    tags: ["Next.js", "Typescript", "Firebase", "Tailwind"],
-    source: "https://github.com/PriteshSoni221/pinterest_clone",
+      "A Logistic Regression model trained on Kaggle dataset to detect fraudulent card transactions",
+    image: "/images/cardFraudDetection.png",
+    tags: ["pandas", "sklearn", "python"],
+    source: "https://github.com/PriteshSoni221/card-fraud-detection",
     visit: "",
     id: 2,
   },
@@ -42,5 +41,6 @@ export const TimeLineData = [
   { year: 2020, text: "Earned multiple certificates in Python and Programming" },
   { year: 2021, text: "Started Learning Web Development" },
   { year: 2022, text: "Started career as a web developer with an internship and a job" },
-  { year: 2023, text: "Joined Technical University of Darmstadt" },
+  { year: 2023, text: "Joined TU Darmstadt and also started as a WorkStudent SDE" },
+  { year: 2024, text: "Gained skills in the field of ML and NLP" },
 ];

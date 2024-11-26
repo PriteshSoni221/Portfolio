@@ -60,6 +60,37 @@ export const SectionTitle = styled.h2`
   }
 `;
 
+export const SectionSubTitle = styled.h2`
+  font-weight: 800;
+  font-size: ${(props) => (props.main ? "54px" : "48px")};
+  line-height: ${(props) => (props.main ? "64px" : "48px")};
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: ${(props) => (props.main ? "44px" : "36px")};
+    line-height: ${(props) => (props.main ? "48px" : "40px")};
+    margin-bottom: 12px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 28px;
+    line-height: 40px;
+    font-size: ${(props) => (props.main ? "22px" : "28px")};
+    line-height: ${(props) => (props.main ? "28px" : "32px")};
+    margin-bottom: 8px;
+    max-width: 100%;
+  }
+`;
 export const SectionText = styled.p`
   max-width: 800px;
   font-size: 24px;

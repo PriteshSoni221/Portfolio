@@ -1,5 +1,6 @@
 import React from "react";
 import { DiFirebase, DiReact } from "react-icons/di";
+import { SiPytorch } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -22,11 +23,6 @@ const Technologies = () => (
     </SectionTitle>
     <div style={{ marginLeft: "2rem" }}>
 
-
-      <SectionText>
-        As a MERN stack developer, I am learning both
-        Front-end and Back-end Technologies.
-      </SectionText>
       <List>
         <ListItem>
           <picture style={{ color: "#fff" }}>
@@ -35,9 +31,9 @@ const Technologies = () => (
           <ListContainer>
             <ListTitle>Front-End</ListTitle>
             <ListParagraph>
+              Angular <br />
               React.js <br />
               Next.js <br />
-              Redux <br />
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -48,25 +44,27 @@ const Technologies = () => (
           <ListContainer>
             <ListTitle>Back-End</ListTitle>
             <ListParagraph>
-              Node.js <br />
+              JAVA Spring Boot <br />
               express.js <br />
               MongoDB <br />
-              MySQL
+              PostgresSQL
             </ListParagraph>
           </ListContainer>
         </ListItem>
-        {/* <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem> */}
+        <ListItem>
+          <picture style={{ color: "#fff" }}>
+            <SiPytorch size="3rem" />
+          </picture>
+          <ListContainer>
+            <ListTitle>ML/NLP</ListTitle>
+            <ListParagraph>
+              Scikit-Learning <br />
+              PyTorch <br />
+              NLTK <br />
+
+            </ListParagraph>
+          </ListContainer>
+        </ListItem>
       </List>
     </div>
     {/* <SectionDivider colorAlt /> */}

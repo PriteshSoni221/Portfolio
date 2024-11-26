@@ -2,10 +2,10 @@ import React from "react";
 
 import {
   Section,
+  SectionSubTitle,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-// import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
@@ -13,13 +13,14 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Pritesh Soni <br />
-          MERN Stack Developer
+          Pritesh Soni
         </SectionTitle>
+        <SectionSubTitle center>
+          Full-Stack Developer | Aspiring Data Scientist (NLP/ML)
+        </SectionSubTitle>
         <SectionText>
-          A computer science student with interest in web development, continuously seeking to enhance knowledge and skills in the field.
+          Master's student specializing in Data Science and Engineering with 2 years of experience as a full-stack web developer.
         </SectionText>
-        {/* <Button>Learn More</Button> */}
       </LeftSection>
     </Section>
   </>

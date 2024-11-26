@@ -71,9 +71,7 @@ const Timeline = () => {
       </SectionTitle>
       <div style={{ marginLeft: "2rem" }}>
         <SectionText>
-          I am a student at Technical University of Darmstadt, Germany. I am in my first
-          year of study. I have experience in web development and looking for an
-          opportunity in Germany to further extend my knowledge.
+          I am a student at Technical University of Darmstadt, Germany. I have experience in web development, recently transitioned into AI and NLP and looking for an opportunity in Germany to further extend my knowledge.
         </SectionText>
         <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
           <>
